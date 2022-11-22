@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Latihan navigasi</title>
+    <style>
+
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            background-color: aquamarine;
+        }
+
+        .header {
+            background-color: #aeaeae;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .topnav {
+            overflow: hidden;
+            background-color: #333;
+            }
+
+
+        .topnav a {
+            float: left;
+            display: block;
+            color: #f2f2f2;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+        
+    .topnav a:hover {
+        background-color: #ddd;
+        color: black;
+    }
+
+    .column {
+        float: left;
+        width: 33.33%;
+        padding: 15px;
+    }
+
+    .row:after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+
+    {
+    .column {
+        width: 100%;
+    }
+}
+
+    .footer {
+        text-align: center;
+        background-color: #aeaeae;
+        position: absolute;
+        bottom: 0px;
+        width: 100%;
+    }
+
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>JIHAD AL GAMAR MOCHTAR</h1>
+        <h2 style="text-align: center;"><i>Latihan Modul 11</i></h2>
+    </div>
+
+    <div class="topnav">
+        <a href="#">Home</a>
+        <a href="#">Product</a>
+        <a href="#">Service</a>
+        <a href="#">About</a>
+    </div>
+
+    <div class="row">
+        <div class="column">
+        <h2>HTML</h2>
+        <p><article>Adalah singkatan dari  HyperText Markup Language. HTML ini merupakan suatu sistem yang digunakan dalam internet untuk mkenentukan struktur konten pada halaman web.</article></p>
+    </div>
+
+    <div class="column">
+        <h2>CSS</h2>
+        <p><article> CSS sendiri singkatan dari Cascading Style Sheet. CSS sendiri merupakan tools pelengkap HTML yang digunakan untuk mengubah tampilan suatu situs.</article></p>
+    </div>
+
+    <div class="column">
+        <h2>JavaScript</h2>
+        <p><article>(disingkat JS) adalah bahasa pemrograman tingkat tinggi dan dinamis. JavaScript populer di internet dan dapat bekerja di sebagian besar web browser</article></p>
+    </div>
+    </div>
+    <div class="footer">
+        <p>Copy Right : STMIK HORIZON KARAWANG 2021</p>
+    </div>
+</body>
+</html>
