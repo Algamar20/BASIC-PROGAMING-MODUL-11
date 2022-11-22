@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table Layout</title>
+    <style>
+         * {
+            box-sizing: border-box;
+        }
+        body {
+            margin: 0;
+            background-color: rgb(248, 190, 0);
+        }
+        .h1 {
+            background-color: #8ed5ff;
+            padding: 20px;
+            text-align: center;
+            width: auto;
+        }
+
+       .navigasi {
+        overflow: hidden;
+            background-color: rgb(255, 198, 198);
+       }
+
+        .navigasi a{
+            float: left;
+            display: block;
+            color: #000000;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+      }
+
+        .navigasi a:hover {
+            background-color: hsl(0, 100%, 49%);
+            color: blue;
+        }
+
+        .colom1 {
+        float: left;
+        width: 50%;
+        padding: 15px;
+     }
+
+        .artikel1 {
+        content: "";
+        display: table;
+        clear: both; 
+        font-size: 20px;
+     }
+
+    
+
+        .colom2 {
+        float: left;
+        width: 50%;
+        padding: 15px;
+    }
+
+
+    .footer {
+        text-align: center;
+        background-color: #8ed5ff;
+        position: absolute;
+        bottom: 0px;
+        width: 100%;
+    }
+
+
+    </style>
+</head>
+<body> 
+
+    <div class="h1">
+        <h1>JIHAD AL GAMAR MOCHTAR</h1>
+        <h2 style="text-align: center;"><i>Tugas Modul 11</i></h2>
+    </div>
+    
+    <div class="navigasi">
+        <a href="#">Home</a>
+        <a href="#">Product</a>
+        <a href="#">Service</a>
+        <a href="#">About</a>
+    </div>
+
+    <div class="artikel1">
+        <div class="colom1">
+        <h2>HTML</h2>
+        <p><article>Adalah singkatan dari  HyperText Markup Language. HTML ini merupakan suatu sistem yang digunakan dalam internet untuk mkenentukan struktur konten pada halaman web.</article></p>
+    </div>
+
+    <div class="colom2">
+        <h2>CSS</h2>
+        <p><article> CSS sendiri singkatan dari Cascading Style Sheet. CSS sendiri merupakan tools pelengkap HTML yang digunakan untuk mengubah tampilan suatu situs.</article></p>
+    </div>
+
+    <div class="footer">
+        <p><B>&copy; Copyright JIHAD AL GAMAR MOCHTAR</B></p>
+    </div>
+</body>
+</html>
